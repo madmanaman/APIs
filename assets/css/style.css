@@ -75,4 +75,33 @@ input[type=number]::-webkit-inner-spin-button {
     #myChart{
     width: 480px;
     }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/forex.gif);
+        color: white;
+        background-size:cover;
+    }
+
+    .container{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(38, 29, 28, 0.8); 
+        border-radius: 3%;
+        text-align: center;
+        padding-bottom: 1rem;
+        padding: 1rem;        
+    }
+
+    .principal{
+        width: 400px;
+        background-color: rgb(63, 67, 89, 0.8);
+        border-radius: 3%;
+        margin-top: 1rem ;
+    }
     }
