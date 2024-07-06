@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 4px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/forex.gif);
+    color: white;
+    background-size:cover;
+}
+
+
+
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(38, 29, 28, 0.8); 
+    border-radius: 3%;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding: 3rem;
+    
+}
+
+hr{
+    border-color: rgb(20, 147, 193);
+    width: 90%;
+    padding:  0;
+    margin: 0 auto;
+
+}
+
+.principal{
+    width: 400px;
+    background-color: rgb(63, 67, 89, 0.8);
+    border-radius: 3%;
+    margin-top: 1rem ;
+}
+
+input, select{
+    border-radius: 4px;
+    border-style: none;
+    min-width:50%;
+    margin-bottom: 1rem;
+}
+
+button{
+    border-radius: 4px;
+    border-style: none;
+    min-width:50% ; 
+    background-color: rgb(111, 167, 223);
+    color: white;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+#myChart{
+    background-color: rgba(30, 28, 38, 0.95);
+    width: 900px;
+    border-radius: 3%;
+}
+
+@media (max-width: 576px){
+    #myChart{
+    width: 480px;
+    }
+    }
